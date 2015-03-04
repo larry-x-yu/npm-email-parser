@@ -69,10 +69,10 @@ module.exports = {
             return;
         }
 
-        var ics = _extractics(message);
+        var ics = this._extractics(message);
         //logger.debug(ics);
         if (ics) {
-            icalJson = ical2json.convert(ics);
+            return ical2json.convert(ics);
             //logger.debug(icalJson);
         }
     }
