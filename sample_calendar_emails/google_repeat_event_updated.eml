@@ -1,0 +1,263 @@
+Authentication-Results: ip-172-31-37-191.us-west-2.compute.internal; ; 
+Received: from mail-pd0-f201.google.com (mail-pd0-f201.google.com [209.85.192.201])
+	by ip-172-31-37-191.us-west-2.compute.internal (Haraka/2.5.0) with ESMTP id 202F9397-FED3-41F7-B0D6-8B97E65CE8F2.1
+	envelope-from <3V9faVAkJCB4EIH6IL7S4AG4CF.6IG86W-OM8LG4G4MQ4H.6IG@calendar-server.bounces.google.com>;
+	Tue, 10 Feb 2015 23:15:20 -0500
+Received: by pdbfl12 with SMTP id fl12so534432pdb.0
+        for <ec2-user@mamaswan.com>; Tue, 10 Feb 2015 20:15:20 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :from:to:content-type;
+        bh=JjlA+IewSjTMCv1uDppKS5VafWklOWMgf+Zspi9WpAM=;
+        b=UeJYz4cVamWHM4QdnzNaCsv5TF+wopgty0w4CnlxJKG/EewOuAtITwagY7crCk1V6f
+         +KPRxBgu/awjQlP9QbZTeA4VDazXrkyMncep3Ne6IgED9dDbXPs6r7c3QPmPeKUXCRu9
+         IsCIXpOTFApb8wFYRMGpf19D6dIniMi4eChjxs3vFK8YNuNLLOqVSjavg9sNnc/7m70I
+         ZpNyMc9dIEYyLIQA2BfY/RKqRtLnubtqCYT232A2U3c+ATOD6u7dTAaa+A81b4SJnfPK
+         Zg0buqLu1RfPkxbjaCFJ1RYD7+hAGu+r5FKbdC3oM+qhjbORoDzrOqWo9Y0uNIa28pqA
+         8IXg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :from:to:content-type;
+        bh=JjlA+IewSjTMCv1uDppKS5VafWklOWMgf+Zspi9WpAM=;
+        b=vu9Aslqz8TlKtkU+xG7UCOapgsnKRcbjuHOTcSRXzgWtPklfsJjJVxEEDm6y6IG3oj
+         eZO+Jk3M1UNRHWUae3pkXTMhUKLE25Pwi69kZxAyHkAMMwcGtsBnIsalo+svrrXKODJr
+         DZDcq48j8P8GulHq/Su/1xIWiRK1sdH47QMaxUng62/JVqO30Th57E2Mg5D0g0LdASpk
+         zfliugOU+MVFMlAvxj3t6RBCvQmuE7sPRT+17cED/T3XltbizlRNm3L4M97V8FpFxYn9
+         9+xPOjaiiXw6tTsXFbCjYC+dP+Dy2nnebLgjlaLa2/oPdiimm3IJYkGYRqMJvBWQsj1n
+         JRyQ==
+MIME-Version: 1.0
+X-Received: by 10.66.66.1 with SMTP id b1mr22644693pat.8.1423628119952; Tue,
+ 10 Feb 2015 20:15:19 -0800 (PST)
+Reply-To: "koncordya@gmail.com" <koncordya@gmail.com>
+Sender: Google Calendar <calendar-notification@google.com>
+Auto-Submitted: auto-generated
+Message-ID: <001a11361f7a61d3b4050ec840b5@google.com>
+Date: Wed, 11 Feb 2015 04:15:19 +0000
+Subject: Updated Invitation: Test event from Google Calendar @ Wed Feb 11,
+ 2015 10pm - 11pm (Koncordya Family)
+From: "koncordya@gmail.com" <koncordya@gmail.com>
+To: "ec2-user@mamaswan.com" <ec2-user@mamaswan.com>
+Content-Type: multipart/mixed; boundary=001a11361f7a61d38c050ec840b4
+
+--001a11361f7a61d38c050ec840b4
+Content-Type: multipart/alternative; boundary=001a11361f7a61d386050ec840b2
+
+--001a11361f7a61d386050ec840b2
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+This event has been changed.
+
+Title: Test event from Google Calendar
+Try to update an existing calendar event
+When: Wed Feb 11, 2015 10pm - 11pm Pacific Time (changed)
+Where: Zimbabwe
+Calendar: Koncordya Family
+Who:
+     * Koncordya Family - organizer
+     * ec2-user@mamaswan.com
+
+Event details:  
+https://www.google.com/calendar/event?action=VIEW&eid=bTFsc2dham9paGUxanA4Y2g3MG9rN3Zpc2MgZWMyLXVzZXJAbWFtYXN3YW4uY29t&tok=MTkja29uY29yZHlhQGdtYWlsLmNvbWFhNzliYTg0YzYwOTJlNmIwMTQ2NjM4NWUwY2E4YzMyMzU5N2QzMGQ&ctz=America/Los_Angeles&hl=en
+
+Invitation from Google Calendar: https://www.google.com/calendar/
+
+You are receiving this courtesy email at the account ec2-user@mamaswan.com  
+because you are an attendee of this event.
+
+To stop receiving future updates for this event, decline this event.  
+Alternatively you can sign up for a Google account at  
+https://www.google.com/calendar/ and control your notification settings for  
+your entire calendar.
+
+--001a11361f7a61d386050ec840b2
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div style=3D""><table cellspacing=3D"0" cellpadding=3D"8" border=3D"0" sum=
+mary=3D"" style=3D"width:100%;font-family:Arial,Sans-serif;border:1px Solid=
+ #ccc;border-width:1px 2px 2px 1px;background-color:#fff;" itemscope itemty=
+pe=3D"http://schema.org/Event"><tr><td><meta itemprop=3D"eventStatus" conte=
+nt=3D"http://schema.org/EventRescheduled"/><h4 style=3D"padding:6px 10px;ma=
+rgin:0 0 4px 0;font-family:Arial,Sans-serif;font-size:13px;line-height:1.4;=
+border:1px Solid #d9f2db;background:#d9f2db;color:#222;font-weight:bold">Th=
+is event has been changed.</h4><div style=3D"padding:2px"><span itemprop=3D=
+"publisher" itemscope itemtype=3D"http://schema.org/Organization"><meta ite=
+mprop=3D"name" content=3D"Google Calendar"/></span><meta itemprop=3D"eventI=
+d/googleCalendar" content=3D"m1lsgajoihe1jp8ch70ok7visc"/><div style=3D"flo=
+at:right;font-weight:bold;font-size:13px"> <a href=3D"https://www.google.co=
+m/calendar/event?action=3DVIEW&amp;eid=3DbTFsc2dham9paGUxanA4Y2g3MG9rN3Zpc2=
+MgZWMyLXVzZXJAbWFtYXN3YW4uY29t&amp;tok=3DMTkja29uY29yZHlhQGdtYWlsLmNvbWFhNz=
+liYTg0YzYwOTJlNmIwMTQ2NjM4NWUwY2E4YzMyMzU5N2QzMGQ&amp;ctz=3DAmerica/Los_Ang=
+eles&amp;hl=3Den" style=3D"color:#20c;white-space:nowrap" itemprop=3D"url">=
+more details &raquo;</a><br></div><h3 style=3D"padding:0 0 6px 0;margin:0;f=
+ont-family:Arial,Sans-serif;font-size:16px;font-weight:bold;color:#222"><sp=
+an itemprop=3D"name">Test event from Google Calendar</span></h3><div style=
+=3D"padding-bottom:15px;font-size:13px;color:#222;white-space:pre-wrap!impo=
+rtant;white-space:-moz-pre-wrap!important;white-space:-pre-wrap!important;w=
+hite-space:-o-pre-wrap!important;white-space:pre;word-wrap:break-word">Try =
+to update an existing calendar event</div><table cellpadding=3D"0" cellspac=
+ing=3D"0" border=3D"0" summary=3D"Event details"><tr><td style=3D"padding:0=
+ 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-sp=
+ace:nowrap" valign=3D"top"><div><i style=3D"font-style:normal">When</i></di=
+v></td><td style=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-s=
+ize:13px;color:#222" valign=3D"top"><strong style=3D"color:#080">Changed: <=
+/strong><time itemprop=3D"startDate" datetime=3D"20150212T060000Z"></time><=
+time itemprop=3D"endDate" datetime=3D"20150212T070000Z"></time>Wed Feb 11, =
+2015 10pm &ndash; 11pm <span style=3D"color:#888">Pacific Time</span></td><=
+/tr><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;font=
+-size:13px;color:#888;white-space:nowrap" valign=3D"top"><div><i style=3D"f=
+ont-style:normal">Where</i></div></td><td style=3D"padding-bottom:10px;font=
+-family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top"><span it=
+emprop=3D"location" itemscope itemtype=3D"http://schema.org/Place"><span it=
+emprop=3D"name">Zimbabwe</span><span dir=3D"ltr"> (<a href=3D"https://maps.=
+google.com/maps?q=3DZimbabwe&amp;hl=3Den" style=3D"color:#20c;white-space:n=
+owrap" target=3D"_blank" itemprop=3D"map">map</a>)</span></span></td></tr><=
+tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size=
+:13px;color:#888;white-space:nowrap" valign=3D"top"><div><i style=3D"font-s=
+tyle:normal">Calendar</i></div></td><td style=3D"padding-bottom:10px;font-f=
+amily:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top">Koncordya =
+Family</td></tr><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,San=
+s-serif;font-size:13px;color:#888;white-space:nowrap" valign=3D"top"><div><=
+i style=3D"font-style:normal">Who</i></div></td><td style=3D"padding-bottom=
+:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top=
+"><table cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"padding-right=
+:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span style=
+=3D"font-family:Courier New,monospace">&#x2022;</span></td><td style=3D"pad=
+ding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><di=
+v><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"attendee" itemscope i=
+temtype=3D"http://schema.org/Person"><span itemprop=3D"name">Koncordya Fami=
+ly</span><meta itemprop=3D"email" content=3D"koncordya@gmail.com"/></span><=
+span style=3D"font-size:11px;color:#888"> - organizer</span></div></div></t=
+d></tr><tr><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;fon=
+t-size:13px;color:#222"><span style=3D"font-family:Courier New,monospace">&=
+#x2022;</span></td><td style=3D"padding-right:10px;font-family:Arial,Sans-s=
+erif;font-size:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"><spa=
+n itemprop=3D"attendee" itemscope itemtype=3D"http://schema.org/Person"><sp=
+an itemprop=3D"name">ec2-user@mamaswan.com</span><meta itemprop=3D"email" c=
+ontent=3D"ec2-user@mamaswan.com"/></span></div></div></td></tr></table></td=
+></tr></table></div><p style=3D"color:#222;font-size:13px;margin:0"><span s=
+tyle=3D"color:#888">Going?&nbsp;&nbsp;&nbsp;</span><wbr><strong><span itemp=
+rop=3D"action" itemscope itemtype=3D"http://schema.org/RsvpAction"><meta it=
+emprop=3D"attendance" content=3D"http://schema.org/RsvpAttendance/Yes"/><sp=
+an itemprop=3D"handler" itemscope itemtype=3D"http://schema.org/HttpActionH=
+andler"><link itemprop=3D"method" href=3D"http://schema.org/HttpRequestMeth=
+od/GET"/><a href=3D"https://www.google.com/calendar/event?action=3DRESPOND&=
+amp;eid=3DbTFsc2dham9paGUxanA4Y2g3MG9rN3Zpc2MgZWMyLXVzZXJAbWFtYXN3YW4uY29t&=
+amp;rst=3D1&amp;tok=3DMTkja29uY29yZHlhQGdtYWlsLmNvbWFhNzliYTg0YzYwOTJlNmIwM=
+TQ2NjM4NWUwY2E4YzMyMzU5N2QzMGQ&amp;ctz=3DAmerica/Los_Angeles&amp;hl=3Den" s=
+tyle=3D"color:#20c;white-space:nowrap" itemprop=3D"url">Yes</a></span></spa=
+n><span style=3D"margin:0 0.4em;font-weight:normal"> - </span><span itempro=
+p=3D"action" itemscope itemtype=3D"http://schema.org/RsvpAction"><meta item=
+prop=3D"attendance" content=3D"http://schema.org/RsvpAttendance/Maybe"/><sp=
+an itemprop=3D"handler" itemscope itemtype=3D"http://schema.org/HttpActionH=
+andler"><link itemprop=3D"method" href=3D"http://schema.org/HttpRequestMeth=
+od/GET"/><a href=3D"https://www.google.com/calendar/event?action=3DRESPOND&=
+amp;eid=3DbTFsc2dham9paGUxanA4Y2g3MG9rN3Zpc2MgZWMyLXVzZXJAbWFtYXN3YW4uY29t&=
+amp;rst=3D3&amp;tok=3DMTkja29uY29yZHlhQGdtYWlsLmNvbWFhNzliYTg0YzYwOTJlNmIwM=
+TQ2NjM4NWUwY2E4YzMyMzU5N2QzMGQ&amp;ctz=3DAmerica/Los_Angeles&amp;hl=3Den" s=
+tyle=3D"color:#20c;white-space:nowrap" itemprop=3D"url">Maybe</a></span></s=
+pan><span style=3D"margin:0 0.4em;font-weight:normal"> - </span><span itemp=
+rop=3D"action" itemscope itemtype=3D"http://schema.org/RsvpAction"><meta it=
+emprop=3D"attendance" content=3D"http://schema.org/RsvpAttendance/No"/><spa=
+n itemprop=3D"handler" itemscope itemtype=3D"http://schema.org/HttpActionHa=
+ndler"><link itemprop=3D"method" href=3D"http://schema.org/HttpRequestMetho=
+d/GET"/><a href=3D"https://www.google.com/calendar/event?action=3DRESPOND&a=
+mp;eid=3DbTFsc2dham9paGUxanA4Y2g3MG9rN3Zpc2MgZWMyLXVzZXJAbWFtYXN3YW4uY29t&a=
+mp;rst=3D2&amp;tok=3DMTkja29uY29yZHlhQGdtYWlsLmNvbWFhNzliYTg0YzYwOTJlNmIwMT=
+Q2NjM4NWUwY2E4YzMyMzU5N2QzMGQ&amp;ctz=3DAmerica/Los_Angeles&amp;hl=3Den" st=
+yle=3D"color:#20c;white-space:nowrap" itemprop=3D"url">No</a></span></span>=
+</strong>&nbsp;&nbsp;&nbsp;&nbsp;<wbr><a href=3D"https://www.google.com/cal=
+endar/event?action=3DVIEW&amp;eid=3DbTFsc2dham9paGUxanA4Y2g3MG9rN3Zpc2MgZWM=
+yLXVzZXJAbWFtYXN3YW4uY29t&amp;tok=3DMTkja29uY29yZHlhQGdtYWlsLmNvbWFhNzliYTg=
+0YzYwOTJlNmIwMTQ2NjM4NWUwY2E4YzMyMzU5N2QzMGQ&amp;ctz=3DAmerica/Los_Angeles&=
+amp;hl=3Den" style=3D"color:#20c;white-space:nowrap" itemprop=3D"url">more =
+options &raquo;</a></p></td></tr><tr><td style=3D"background-color:#f6f6f6;=
+color:#888;border-top:1px Solid #ccc;font-family:Arial,Sans-serif;font-size=
+:11px"><p>Invitation from <a href=3D"https://www.google.com/calendar/" targ=
+et=3D"_blank" style=3D"">Google Calendar</a></p><p>You are receiving this c=
+ourtesy email at the account ec2-user@mamaswan.com because you are an atten=
+dee of this event.</p><p>To stop receiving future updates for this event, d=
+ecline this event. Alternatively you can sign up for a Google account at ht=
+tps://www.google.com/calendar/ and control your notification settings for y=
+our entire calendar.</p></td></tr></table></div>
+--001a11361f7a61d386050ec840b2
+Content-Type: text/calendar; charset=UTF-8; method=REQUEST
+Content-Transfer-Encoding: 7bit
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20150212T060000Z
+DTEND:20150212T070000Z
+DTSTAMP:20150211T041519Z
+ORGANIZER;CN=Koncordya Family:mailto:koncordya@gmail.com
+UID:m1lsgajoihe1jp8ch70ok7visc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Koncordya Family;X-NUM-GUESTS=0:mailto:koncordya@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=ec2-user@mamaswan.com;X-NUM-GUESTS=0:mailto:ec2-user@mamaswan.com
+CLASS:PUBLIC
+CREATED:20150211T041409Z
+DESCRIPTION:Try to update an existing calendar event\nView your event at ht
+ tps://www.google.com/calendar/event?action=VIEW&eid=bTFsc2dham9paGUxanA4Y2g
+ 3MG9rN3Zpc2MgZWMyLXVzZXJAbWFtYXN3YW4uY29t&tok=MTkja29uY29yZHlhQGdtYWlsLmNvb
+ WFhNzliYTg0YzYwOTJlNmIwMTQ2NjM4NWUwY2E4YzMyMzU5N2QzMGQ&ctz=America/Los_Ange
+ les&hl=en.
+LAST-MODIFIED:20150211T041519Z
+LOCATION:Zimbabwe
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Test event from Google Calendar
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:EMAIL
+DESCRIPTION:This is an event reminder
+SUMMARY:Alarm notification
+ATTENDEE:mailto:ec2-user@mamaswan.com
+TRIGGER:-P0DT0H30M0S
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H10M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+
+--001a11361f7a61d386050ec840b2--
+--001a11361f7a61d38c050ec840b4
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpQUk9ESUQ6LS8vR29vZ2xlIEluYy8vR29vZ2xlIENhbGVuZGFyIDcw
+LjkwNTQvL0VODQpWRVJTSU9OOjIuMA0KQ0FMU0NBTEU6R1JFR09SSUFODQpNRVRIT0Q6UkVRVUVT
+VA0KQkVHSU46VkVWRU5UDQpEVFNUQVJUOjIwMTUwMjEyVDA2MDAwMFoNCkRURU5EOjIwMTUwMjEy
+VDA3MDAwMFoNCkRUU1RBTVA6MjAxNTAyMTFUMDQxNTE5Wg0KT1JHQU5JWkVSO0NOPUtvbmNvcmR5
+YSBGYW1pbHk6bWFpbHRvOmtvbmNvcmR5YUBnbWFpbC5jb20NClVJRDptMWxzZ2Fqb2loZTFqcDhj
+aDcwb2s3dmlzY0Bnb29nbGUuY29tDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJF
+US1QQVJUSUNJUEFOVDtQQVJUU1RBVD1BQ0NFUFRFRDtSU1ZQPVRSVUUNCiA7Q049S29uY29yZHlh
+IEZhbWlseTtYLU5VTS1HVUVTVFM9MDptYWlsdG86a29uY29yZHlhQGdtYWlsLmNvbQ0KQVRURU5E
+RUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9TkVFRFMt
+QUNUSU9OO1JTVlA9DQogVFJVRTtDTj1lYzItdXNlckBtYW1hc3dhbi5jb207WC1OVU0tR1VFU1RT
+PTA6bWFpbHRvOmVjMi11c2VyQG1hbWFzd2FuLmNvbQ0KQ0xBU1M6UFVCTElDDQpDUkVBVEVEOjIw
+MTUwMjExVDA0MTQwOVoNCkRFU0NSSVBUSU9OOlRyeSB0byB1cGRhdGUgYW4gZXhpc3RpbmcgY2Fs
+ZW5kYXIgZXZlbnRcblZpZXcgeW91ciBldmVudCBhdCBodA0KIHRwczovL3d3dy5nb29nbGUuY29t
+L2NhbGVuZGFyL2V2ZW50P2FjdGlvbj1WSUVXJmVpZD1iVEZzYzJkaGFtOXBhR1V4YW5BNFkyZw0K
+IDNNRzlyTjNacGMyTWdaV015TFhWelpYSkFiV0Z0WVhOM1lXNHVZMjl0JnRvaz1NVGtqYTI5dVky
+OXlaSGxoUUdkdFlXbHNMbU52Yg0KIFdGaE56bGlZVGcwWXpZd09USmxObUl3TVRRMk5qTTROV1V3
+WTJFNFl6TXlNelU1TjJRek1HUSZjdHo9QW1lcmljYS9Mb3NfQW5nZQ0KIGxlcyZobD1lbi4NCkxB
+U1QtTU9ESUZJRUQ6MjAxNTAyMTFUMDQxNTE5Wg0KTE9DQVRJT046WmltYmFid2UNClNFUVVFTkNF
+OjENClNUQVRVUzpDT05GSVJNRUQNClNVTU1BUlk6VGVzdCBldmVudCBmcm9tIEdvb2dsZSBDYWxl
+bmRhcg0KVFJBTlNQOk9QQVFVRQ0KQkVHSU46VkFMQVJNDQpBQ1RJT046RU1BSUwNCkRFU0NSSVBU
+SU9OOlRoaXMgaXMgYW4gZXZlbnQgcmVtaW5kZXINClNVTU1BUlk6QWxhcm0gbm90aWZpY2F0aW9u
+DQpBVFRFTkRFRTptYWlsdG86ZWMyLXVzZXJAbWFtYXN3YW4uY29tDQpUUklHR0VSOi1QMERUMEgz
+ME0wUw0KRU5EOlZBTEFSTQ0KQkVHSU46VkFMQVJNDQpBQ1RJT046RElTUExBWQ0KREVTQ1JJUFRJ
+T046VGhpcyBpcyBhbiBldmVudCByZW1pbmRlcg0KVFJJR0dFUjotUDBEVDBIMTBNMFMNCkVORDpW
+QUxBUk0NCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==
+--001a11361f7a61d38c050ec840b4--
