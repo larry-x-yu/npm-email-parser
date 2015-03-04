@@ -12,7 +12,9 @@ var logger = bunyan.createLogger({
 
 module.exports = {
     _extractics: function(message) {
-        var beginIndex = -1, endIndex = -1, ics = "";
+        var beginIndex = -1,
+            endIndex = -1,
+            ics = "";
 
         /**
          * 
@@ -34,7 +36,7 @@ module.exports = {
             if (beginIndex != -1 && endIndex != -1) {
                 ics = message.substring(beginIndex, endIndex + 1);
             }
-        } else {    /* Apple's ics is base64 encoded as an attachment */
+        } else { /* Apple's ics is base64 encoded as an attachment */
             // Calendar event from iphone, mac-os
             logger.debug("Search for encoded ics...");
             var marker1 = "Content-Disposition: attachment; filename=.*\.ics";
@@ -58,6 +60,7 @@ module.exports = {
             }
 
             return ics;
+        }
     },
 
     toicsjson: function(message) {
@@ -67,11 +70,10 @@ module.exports = {
         }
 
         var ics = _extractics(message);
-            //logger.debug(ics);
+        //logger.debug(ics);
         if (ics) {
-                icalJson = ical2json.convert(ics);
-                //logger.debug(icalJson);
-            }
+            icalJson = ical2json.convert(ics);
+            //logger.debug(icalJson);
         }
-    });
+    }
 };
