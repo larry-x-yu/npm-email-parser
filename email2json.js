@@ -16,26 +16,17 @@ module.exports = {
             endIndex = -1,
             ics = "";
 
-        /**
-         * 
-         * Google calendar enbeds ics in the email as clear text
-         * as well as attachment 
-         */
-
-        /* Check if ics is embedded in the email body as clear text */
-        beginIndex = message.indexOf("BEGIN:VCALENDAR");
-
-        if (beginIndex != -1) {
-            endIndex = message.indexOf("END:VCALENDAR");
-            if (endIndex == -1) {
-                logger.error("Unable to find 'END:VCALENDAR'; Proceed to Base64 check");
-            } else {
-                endIndex += 'END:VCALENDAR'.length;
-            }
-
-            if (beginIndex != -1 && endIndex != -1) {
-                ics = message.substring(beginIndex, endIndex + 1);
-            }
+	    var googleOpeningMarker = 'Content-Transfer-Encoding: base64';
+            var googleClosingMarker = '--[0-9a-fA-F]+--';
+	    var beginIndex = message.indexOf(googleOpeningMarker);
+	    if(beginIndex > 0) { // Should be google calendar event
+	    beginIndex += googleOpeningMarker.length;
+            var tmp = message.substring(beginIndex);
+		    endIndex = tmp.search(googleClosingMarker);
+            if(endIndex > 0) {
+                // Restore the index in 'message' instead of 'tmp' 
+                endIndex += beginIndex;
+            }    			
         } else { /* Apple's ics is base64 encoded as an attachment */
             // Calendar event from iphone, mac-os
             logger.debug("Search for encoded ics...");
@@ -48,19 +39,19 @@ module.exports = {
             } else {
                 logger.debug("Unable to find Base64 encoded ics");
             }
-
-            if (beginIndex != -1 && endIndex != -1) {
-                logger.debug("Decode ics...");
-                ics = message.substring(beginIndex, endIndex).trim();
-
-                //logger.debug("ics base64:\n" + ics);
-                ics = new Buffer(ics, 'base64').toString("ascii");;
-            } else {
-                logger.debug("No valid ics attachment found");
-            }
-
-            return ics;
         }
+
+        if (beginIndex != -1 && endIndex != -1) {
+            logger.debug("Decode ics...");
+            ics = message.substring(beginIndex, endIndex).trim();
+            //logger.debug("ics base64:\n" + ics);
+            ics = new Buffer(ics, 'base64').toString("ascii");
+	    //logger.debug("ICS=" + ics);
+        } else {
+            logger.debug("No valid ics attachment found");
+        }
+
+        return ics;
     },
 
     toicsjson: function(message) {

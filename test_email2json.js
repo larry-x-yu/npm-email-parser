@@ -10,3 +10,14 @@ fs.readFile("./sample_calendar_emails/iphone_calendar_event.eml", "ascii", funct
 	var ics = email2json.toicsjson(message);
 	console.log(ics);	
 });
+
+
+fs.readFile("./sample_calendar_emails/google_invitation.eml", "ascii", function(err, message) {
+	if(err) {
+		console.log("Error opening file: " + err);
+		return;
+	}
+
+	var ics = email2json.toicsjson(message);
+	console.log(JSON.stringify(ics));	
+});
